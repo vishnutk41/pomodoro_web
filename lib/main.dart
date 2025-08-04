@@ -16,7 +16,7 @@ class PomodoroApp extends StatelessWidget {
     return ChangeNotifierProvider(
       create: (context) => PomodoroTimer(),
       child: MaterialApp(
-        title: 'Pomodoro Timer',
+        title: 'Pomodoro Timer Web App',
         debugShowCheckedModeBanner: false,
         theme: ThemeData(
           useMaterial3: true,
